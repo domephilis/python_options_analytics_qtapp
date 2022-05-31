@@ -1,0 +1,5 @@
+{
+	"description": "dummy test, do not use this method, you are going to suffer horribly",
+	"entrance_condition": "buy if it rises by 5 percent",
+	"exit_condition": "sell if it drops by 5 percent"
+}

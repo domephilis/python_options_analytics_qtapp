@@ -1,0 +1,22 @@
+{
+    "0":{
+        "start":        161.25,
+        "end":          483.75,
+        "iters":        500,
+        "options_amount": 2
+    },
+    "1":{
+        "name":         "ADSK",
+        "strategy":     "Short Put",
+        "group:":       "20211210SOXLIB1",
+        "strike":       307.5,
+        "dis_rate":     0.0011,
+        "volatility":   0.5349,
+        "time":         0.03287,
+        "exec_price":   63.4,
+        "PC":           1,
+        "b/s":          0,
+        "qty":          1,
+        "O/S":          1
+    }
+}
