@@ -10,4 +10,8 @@ The program itself defines the related functions, import the necessary config fi
 
 ## qt_options_tracker.py
 
-This program loads the variables and dictionaries from the Computations Files, uses the functions in the Computations Files to compute them for each options in the strategy and the strategy as a whole, and creates the qt application in the following manner.  The program uses stackedLayout in Qt5 to create several pages for each options in the strategy you load.  As of now, you need to go into the code and configure how many options you have.  In each page, we have a nested series of horizontal and vertical layouts.  Vertical for the division between the title and the page, a
+This program loads the variables and dictionaries from the Computations Files, uses the functions in the Computations Files to compute them for each options in the strategy and the strategy as a whole, and creates the qt application in the following manner.  The program uses stackedLayout in Qt5 to create several pages for each options in the strategy you load.  As of now, you need to go into the code and configure how many options you have.  In each page, we have a nested series of horizontal and vertical layouts.  Vertical for the division between the title and the page, a grid, a horizontal, and another grid.
+
+## Implementation Notes
+
+I'm too lazy for that, seriously did you think I of all people are going to carefully document every function in the program.  It's close to a thousand lines of crappy code.
