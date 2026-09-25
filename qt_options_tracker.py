@@ -10,13 +10,13 @@ from math import *
 from black_scholes import *
 import qdarkstyle
 
-with open("/home/eric/projects/options_tracker/json/20211126SOXLIB1_results.json","r") as f:
+with open("./json/20211126SOXLIB1_results.json","r") as f:
     result = json.load(f)
 
-with open("/home/eric/projects/options_tracker/json/20211126ADSKSP1.json","r") as f:
+with open("./json/20211126SOXLIB1.json","r") as f:
     config = json.load(f)
 
-with open("/home/eric/projects/options_tracker/json/20211126SOXLIB1_plan.json","r") as f:
+with open("./json/20211126SOXLIB1_plan.json","r") as f:
     description = json.load(f)
 
 iter_par = config["0"]

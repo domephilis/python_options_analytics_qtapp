@@ -1,0 +1,7 @@
+PyQt5==5.15.4
+pyqtgraph==0.12.3
+yfinance==0.1.63
+QDarkStyle==3.0.2
+scipy==1.7.1
+matplotlib==3.4.3
+numpy==1.21.2

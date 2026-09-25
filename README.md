@@ -1,5 +1,7 @@
 # python_options_analytics_qtapp
 
+*Note: This code is fairly old.  As of Sep. 25th, 2026, the code still works if run using python 3.9.7.  One can use pyenv so as to not affect the system installation of python.  After selecting the correct python version, please install the dependencies in the requirements.txt.  I have set the versions of the packages there to roughly correspond to the versions that I would probably have used while writing the program, and it seems to work.  Also, the UI/UX is pretty bad, as I was just starting out then.  Still, I am keeping this repo around because, hopefully, the math isn't too far off.  I had to work out some of the calculations (for example, the one on the breakeven point) myself, so I'm leaving the code here for future reference.  However, there is no guarantee that they are correct.*
+
 ## File Structure
 This is an application I made to practice a bit on my understanding of the black-scholes formulas.  There are 3 useful python files in this folder.  One is black-scholes.py that establishes the entire computational system on the black-scholes equation and their derived equations.  The other one is the binomial.py that uses the binomial tree to build out the program.  Due to there similarity, from now on these 2 files are going to be collectively called the Computations Files  The qt_options_tracker.py is the qt gui wrapper that presents the calculations in an ugly way.
 

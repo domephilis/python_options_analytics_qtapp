@@ -72,7 +72,7 @@ class ThreadWithReturnValue(threading.Thread):
 
 # Configuration Import
 
-with open("/home/eric/projects/options_tracker/json/20211126SOXLIB1.json","r") as f:
+with open("./json/20211126SOXLIB1.json","r") as f:
     config = json.load(f)
 
 iter_par = config["0"]
@@ -354,7 +354,7 @@ result = {
     "neg": neg_np.tolist()
 }
 json_result = json.dumps(result)
-with open("/home/eric/projects/options_tracker/json/20211126SOXLIB1_results.json","w") as f:
+with open("./json/20211126SOXLIB1_results.json","w") as f:
     f.write(json_result)
 
 
